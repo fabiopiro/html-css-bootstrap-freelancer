@@ -7,6 +7,11 @@
         <!-- Bootstrap framework -->
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- font 400 700 Roboto-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <!-- font awesome icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
         <!-- CSS -->
         <link rel="stylesheet" href="css/style.css">
         <title>Bootstrap Freelancer</title>
@@ -24,9 +29,16 @@
             <!-- /nav -->
             <!-- jumbotron -->
             <div id="jumbotron">
-                <div class="container">
-
+                <img id="avatar" src="img/avatar.svg" alt="avatar">
+                <h1>start bootstrap</h1>
+                <!-- star -->
+                <div id="star">
+                    <div class="bar-white"></div>
+                    <i class="fas fa-star"></i>
+                    <div class="bar-white"></div>
                 </div>
+                <!-- /star -->
+                <h4>graphic artist - web designer - illustrator</h4>
             </div>
             <!-- /jumbotron -->
         </header>
@@ -34,46 +46,78 @@
         <!-- main -->
         <main>
             <!-- portfolio -->
-            <section id="portfolio">
-                <h2>Portfolio</h2>
-                <p>stellina</p>
+            <section id="portfolio" class="text-blue">
+                <h3>portfolio</h3>
+                <!-- star -->
+                <div id="star">
+                    <div class="bar-blue"></div>
+                    <i class="fas fa-star"></i>
+                    <div class="bar-blue"></div>
+                </div>
+                <!-- /star -->
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-lg-4">foto1</div>
-                        <div class="col-xs-12 col-sm-6 col-lg-4">foto2</div>
-                        <div class="col-xs-12 col-sm-6 col-lg-4">foto3</div>
-                        <div class="col-xs-12 col-sm-6 col-lg-4">foto4</div>
-                        <div class="col-xs-12 col-sm-6 col-lg-4">foto5</div>
-                        <div class="col-xs-12 col-sm-6 col-lg-4">foto6</div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <img src="img/cabin.png" alt="house">
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <img src="img/cake.png" alt="cake">
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <img src="img/circus.png" alt="circus">
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <img src="img/game.png" alt="game">
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <img src="img/safe.png" alt="safe">
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <img src="img/submarine.png" alt="submarine">
+                        </div>
                     </div>
                 </div>
             </section>
             <!-- /portfolio -->
             <!-- about -->
             <section id="about">
-                <h2>About</h2>
-                <p>stellina</p>
+                <h3>about</h3>
+                <!-- star -->
+                <div id="star">
+                    <div class="bar-white"></div>
+                    <i class="fas fa-star"></i>
+                    <div class="bar-white"></div>
+                </div>
+                <!-- /star -->
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-2 col-md-5 col-md-offset-1">
-                            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus quos sint ut. Qui nam nihil molestiae vero quaerat. Aperiam nostrum vitae sapiente consequatur quod fugiat ratione nam, quisquam sed necessitatibus?</div>
+                            <div class="text-left">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</div>
                         </div>
                         <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-5">
-                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nisi voluptatibus doloremque. Eligendi sed omnis voluptatem, expedita culpa aperiam molestias deserunt laudantium veniam quod obcaecati recusandae enim ipsa ea nesciunt.</div>
+                            <div class="text-left">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</div>
                         </div>
                     </div>
                 </div>
-                <a href="">Download</a>
+                <a href="">Free Download</a>
             </section>
             <!-- /about -->
             <!-- contact -->
-            <section id="contact">
-                <h2>Contact Me</h2>
-                <p>stellina</p>
+            <section id="contact" class="text-blue">
+                <h3>contact me</h3>
+                <!-- star -->
+                <div id="star">
+                    <div class="bar-blue"></div>
+                    <i class="fas fa-star"></i>
+                    <div class="bar-blue"></div>
+                </div>
+                <!-- /star -->
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-8 col-xs-offset-2 col-md-10 col-md-offset-1">
-                            name email address
+                            <div class="text-left">
+                                name email address
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -87,9 +131,31 @@
             <section id="info">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-4">location</div>
-                        <div class="col-xs-12 col-sm-4">around the web</div>
-                        <div class="col-xs-12 col-sm-4">about freelancer</div>
+                        <div class="col-xs-12 col-sm-4">
+                            <h4>location</h4>
+                            <p>2215 John Daniel Drive Clark, MO 65243</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <h4>around the web</h4>
+                            <div class="social">
+                                <a href="#">
+                                    <i id="fb" class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i id="in" class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <h4>about freelancer</h4>
+                            <p>Freelance is a free to use, MIT licensed Bootstrap theme created by <a href="#">Start Bootstrap</a>.</p>
+                        </div>
                     </div>
                 </div>
 
