@@ -21,11 +21,20 @@
         <!-- header -->
         <header>
             <!-- nav -->
+            <!-- <nav> -->
             <nav>
                 <div class="container">
-
+                    <div class="row">
+                        <div class="col-xs-6 text-left">
+                            <a href="#">start bootstrap</a>
+                        </div>
+                        <div class="col-xs-6 text-right">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
                 </div>
             </nav>
+            <!-- </nav> -->
             <!-- /nav -->
             <!-- jumbotron -->
             <div id="jumbotron">
@@ -114,15 +123,26 @@
                     <div class="bar-blue"></div>
                 </div>
                 <!-- /star -->
+                <!-- form -->
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-8 col-xs-offset-2 col-md-10 col-md-offset-1">
-                            <div class="text-left">
-                                name email address
-                            </div>
+                            <form class="text-left">
+                                <!-- name -->
+                                <input type="text" id="name" name="name" value="" placeholder="Name">
+                                <!-- phone number -->
+                                <input type="tel" id="phone" name="phone" value="" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Phone Number">
+                                <!-- email -->
+                                <input type="email" id="email" name="email" value="" placeholder="Email Address">
+                                <!-- text area -->
+                                <textarea rows="6" cols="50" name="message" form="" value="" placeholder="Message"></textarea>
+                                <!-- send -->
+                                <input class="btn btn-primary btn-lg" type="submit" value="Send">
+                            </form> 
                         </div>
                     </div>
                 </div>
+                <!-- /form -->
             </section>
             <!-- /contact -->
         </main>
