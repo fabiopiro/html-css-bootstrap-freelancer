@@ -14,6 +14,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -49,7 +50,7 @@ h3 {
 }
 
 /* star */
-#star {
+.star {
     line-height: 50px;
 }
 .fa-star {
@@ -80,14 +81,8 @@ h3 {
 }
 
 /* common background */
-
 #copyright {
     background-color: #2c3e50;
-}
-
-#jumbotron,
-#about {
-    background-color: #1abc9c;
 }
 
 .ms_navbar,
@@ -95,19 +90,13 @@ h3 {
     background-color: #3a546d;
 }
 
+#jumbotron,
+#about {
+    background-color: #1abc9c;
+}
+
 /* header */
 /* nav */
-/* .ms_navbar {
-    height: 75px;
-    line-height: 75px;
-}
-.ms_navbar .navbar-brand {
-    line-height: 50px;
-}
-.ms_navbar .navbar-toggle {
-    margin-top: 20px;
-} */
-
 .ms_navbar,
 .ms_navbar .navbar-collapse {
     border: none;
@@ -117,13 +106,13 @@ h3 {
 .ms_navbar .navbar-nav>li>a {
     color: white;
 }
-
 .ms_navbar .navbar-nav>li>a:hover {
     color: #1abc9c;
 }
+
 /* jumbotron */
 #jumbotron {
-    padding-top: 105px;
+    padding-top: 80px;
     padding-bottom: 30px;
 }
 
@@ -144,13 +133,6 @@ h3 {
     width: 100%;
     transition: 0.5s;
 }
-.portfolio_item img:hover {
-    opacity: 0.1;
-}
-.portfolio_item:hover .fa-plus {
-    visibility: visible;
-}
-
 .fa-plus {
     font-size: 5em;
     color: white;
@@ -160,6 +142,14 @@ h3 {
     transform: translate(-50%,-50%);
     visibility: hidden;
 }
+
+.portfolio_item img:hover {
+    opacity: 0.1;
+}
+.portfolio_item:hover .fa-plus {
+    visibility: visible;
+}
+
 /* about */
 #about p {
     margin: 15px 0;
@@ -172,15 +162,15 @@ h3 {
     border: 1px solid white;
     transition: 0.5s;
 }
-
+.fa-download {
+    margin-right: 5%;
+}
 .ms_btn:hover {
     color: #1abc9c;
     background-color: white;
     border-color: #1abc9c;
 }
-.fa-download {
-    margin-right: 5%;
-}
+
 /* contact */
 /* form */
 #form .col-xs-12 {
